@@ -1,0 +1,16 @@
+Inventory Management System
+
+1. View Products
+2. Add Product
+3. Update Product
+4. Delete Product
+5. Inventory Summary
+6. Exit
+
+Select option: 2
+
+Product name: Keyboard
+Quantity: 5
+Price: 49.99
+
+Product added.

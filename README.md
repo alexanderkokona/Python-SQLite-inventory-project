@@ -41,3 +41,113 @@ Table: products
 ## How to Run
 
 Step 1: Clone repository
+
+git clone https://github.com/yourusername/inventory-sql-project.
+git
+
+
+Step 2: Navigate to folder
+
+
+cd inventory-sql-project
+
+
+Step 3: Run program
+
+
+python main.py
+
+
+---
+
+## Example SQL Queries Used
+
+Create table:
+
+
+CREATE TABLE products (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+name TEXT,
+quantity INTEGER,
+price REAL
+);
+
+
+Insert data:
+
+
+INSERT INTO products (name, quantity, price)
+VALUES ("Keyboard", 5, 49.99);
+
+
+Query data:
+
+
+SELECT * FROM products;
+
+
+Update data:
+
+
+UPDATE products
+SET quantity = 10
+WHERE id = 1;
+
+
+Delete data:
+
+
+DELETE FROM products
+WHERE id = 1;
+
+
+Aggregate functions:
+
+
+SELECT
+SUM(quantity * price),
+AVG(price)
+FROM products;
+
+
+---
+
+## Demonstration Video
+
+Explain:
+
+• how the database is created  
+• how records are added  
+• how records are updated  
+• how records are deleted  
+• how SQL queries interact with the database  
+
+---
+
+## What I Learned
+
+Through this project I learned:
+
+• how relational databases store structured data  
+• how SQL queries manipulate data  
+• how Python connects to SQLite databases  
+• how CRUD operations work in real applications  
+• how aggregate functions summarize stored data  
+
+---
+
+## Future Improvements
+
+Possible improvements include:
+
+• adding multiple tables
+• adding user login system
+• exporting reports to CSV
+• adding search functionality
+• creating graphical interface
+
+---
+
+## Author
+
+Alexander Kokona
